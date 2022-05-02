@@ -6,6 +6,10 @@
 *, ::after, ::before {
     box-sizing: unset !important;
 }
+
+.row {
+    margin-right: 0;
+}
 /*responsive 320*/
 @media screen and (min-width:320px){
     .main-header {
@@ -93,7 +97,17 @@
         height: 450px;
         width: 100%;
         background-position: center;
+    }
+    .footer h2 {
+        font-size: 18px;
+    }
     
+    .footer a {
+        font-size: 15px;
+        
+    }
+    .indexfooter-linkreg {
+        padding-bottom: 20px;
     }
     /*registrarse*/
     .reg-navegador ul {
@@ -584,6 +598,19 @@
         width: 100%;
         background-position: center;
     }
+
+    .footer h2 {
+        font-size: 20px;
+    }
+    
+    .footer a {
+        font-size: 18px;
+        
+    }
+    .indexfooter-linkreg {
+        padding-bottom: 20px;
+    }
+    
     
     /*registrarse*/
     
@@ -1155,15 +1182,19 @@
         background-position: center;
     
     }
+    .footer h2 {
+        font-size: 24px;
+    }
+    
+    .footer a {
+        font-size: 20px;
+        
+    }
+    .indexfooter-linkreg {
+        padding-bottom: 20px;
+    }
 
-    .linknosotros-footer {
-        padding-left: 690px;
-        
-    }
-    .linkayuda-footer {
-        padding-left: 690px;
-        
-    }
+    
     /*registrarse*/
     
     .reg-navegador ul {
